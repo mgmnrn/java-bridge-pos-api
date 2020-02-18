@@ -1,0 +1,19 @@
+﻿Build started 11/14/2019 4:14:22 PM.
+     1>Project "C:\Users\mgmnrn\IdeaProjects\PosProject\BridgePostAPI\BridgePostAPI\BridgePostAPI\BridgePostAPI.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IC:\Users\mgmnrn\IdeaProjects\PostAPI\include /I"C:\Program Files\Java\jdk1.8.0_231\include" /I"C:\Program Files\Java\jdk1.8.0_231\include\win32" /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D BRIDGEPOSTAPI_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Release\BridgePostAPI.pch" /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IC:\Users\mgmnrn\IdeaProjects\PostAPI\include /I"C:\Program Files\Java\jdk1.8.0_231\include" /I"C:\Program Files\Java\jdk1.8.0_231\include\win32" /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D BRIDGEPOSTAPI_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Release\BridgePostAPI.pch" /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt BridgePostAPI.cpp
+         BridgePostAPI.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IC:\Users\mgmnrn\IdeaProjects\PostAPI\include /I"C:\Program Files\Java\jdk1.8.0_231\include" /I"C:\Program Files\Java\jdk1.8.0_231\include\win32" /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D BRIDGEPOSTAPI_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt dllmain.cpp
+         dllmain.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\mgmnrn\IdeaProjects\PosProject\BridgePostAPI\BridgePostAPI\Release\BridgePostAPI.dll" /INCREMENTAL:NO /NOLOGO C:\Users\mgmnrn\IdeaProjects\PostAPI\x64\PosAPI.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\mgmnrn\IdeaProjects\PosProject\BridgePostAPI\BridgePostAPI\Release\BridgePostAPI.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\mgmnrn\IdeaProjects\PosProject\BridgePostAPI\BridgePostAPI\Release\BridgePostAPI.lib" /MACHINE:X86 /SAFESEH /DLL Release\BridgePostAPI.obj
+         Release\dllmain.obj
+         Release\stdafx.obj
+     1>PosAPI.lib(PosAPI.dll) : fatal error LNK1112: module machine type 'x64' conflicts with target machine type 'X86'
+     1>Done Building Project "C:\Users\mgmnrn\IdeaProjects\PosProject\BridgePostAPI\BridgePostAPI\BridgePostAPI\BridgePostAPI.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:02.85

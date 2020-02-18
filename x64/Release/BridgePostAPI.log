@@ -1,0 +1,19 @@
+﻿Build started 11/16/2019 11:49:03 PM.
+     1>Project "C:\Devolop\Lesson\VisualPrograming\PosProject\BridgePostAPI\BridgePostAPI\BridgePostAPI\BridgePostAPI.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Program Files\Java\jdk1.8.0_231\include" /I"C:\Program Files\Java\jdk1.8.0_231\include\win32" /IC:\Devolop\Lesson\VisualPrograming\PosProject\+Library\PostAPI\include /Zi /nologo /W1 /WX- /O2 /D _WINDLL /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TP /errorReport:prompt BridgePostAPI.cpp dllmain.cpp stdafx.cpp
+         BridgePostAPI.cpp
+         dllmain.cpp
+         stdafx.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Devolop\Lesson\VisualPrograming\PosProject\BridgePostAPI\BridgePostAPI\x64\Release\BridgePostAPI.dll" /NOLOGO C:\Devolop\Lesson\VisualPrograming\PosProject\+Library\PostAPI\x64\PosAPI.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"C:\Devolop\Lesson\VisualPrograming\PosProject\BridgePostAPI\BridgePostAPI\x64\Release\BridgePostAPI.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Devolop\Lesson\VisualPrograming\PosProject\BridgePostAPI\BridgePostAPI\x64\Release\BridgePostAPI.lib" /MACHINE:X64 /DLL x64\Release\BridgePostAPI.obj
+         x64\Release\dllmain.obj
+         x64\Release\stdafx.obj
+            Creating library C:\Devolop\Lesson\VisualPrograming\PosProject\BridgePostAPI\BridgePostAPI\x64\Release\BridgePostAPI.lib and object C:\Devolop\Lesson\VisualPrograming\PosProject\BridgePostAPI\BridgePostAPI\x64\Release\BridgePostAPI.exp
+         BridgePostAPI.vcxproj -> C:\Devolop\Lesson\VisualPrograming\PosProject\BridgePostAPI\BridgePostAPI\x64\Release\BridgePostAPI.dll
+     1>Done Building Project "C:\Devolop\Lesson\VisualPrograming\PosProject\BridgePostAPI\BridgePostAPI\BridgePostAPI\BridgePostAPI.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.19
